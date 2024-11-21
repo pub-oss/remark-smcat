@@ -22,7 +22,8 @@ function render(destination:any, source:any, engine:any) {
           outputType: 'svg'
         }));
 
-    return `./${svgFilename}`;
+    // 返回svg文件名称
+    return `${svgFilename}`;
 }
 
 /**
